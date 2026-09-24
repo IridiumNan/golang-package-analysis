@@ -25,7 +25,7 @@ Reader 的作用就是一次性读取更多的内容保存到缓冲区当中 (�
 最常用的方法是 `ReadSlice`， 跟它类似的有 `ReadBytes`, 但是后者会拷贝一份数据， 所以前者性能更好
 
 ```go
-func (b *Reader) ReadSlice(delim byte) (line []byte, err error) {
+func (b *Reader) ReadSlice(delim byte) (line []byte, err error)
 ```
 
 这里的delim 就是 delimiter, 也就是分隔符。 一般用 `,` `\n` 之类的， 根据需求使用
