@@ -7,3 +7,6 @@
 
 - [reader 介绍](./reader.md)
 - [reader 简单案例](./reader_test.go)
+
+- [buffer 介绍](./buffer.md)
+- [buffer 简单案例](./buffer_test.go)
