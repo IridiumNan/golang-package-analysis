@@ -4,3 +4,6 @@
 
 - [bytes 主要方法](./bytes.md)
 - [bytes 简单案例](./bytes_test.go)
+
+- [reader 介绍](./reader.md)
+- [reader 简单案例](./reader_test.go)
