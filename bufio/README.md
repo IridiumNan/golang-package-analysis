@@ -4,6 +4,8 @@
 
 ---
 
+> [运行案例](./bufio_test.go)
+
 ## 什么是 bufio
 
 `bufio` 是一个 golang 的标准库， 它的核心作用是 提供**缓冲式的 IO 操作**。
