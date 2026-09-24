@@ -315,3 +315,7 @@ func io.TeeReader(r io.Reader, w io.Writer) io.Reader
 原帖子当中还提到一个场景是 将接受到的资源同时传送给用户和使用云端对象存储 来备份， 当然使用 MultiWriter 也可以实现相同的功能
 
 ---
+
+## Pipe
+
+待完成
